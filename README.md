@@ -1,3 +1,4 @@
+![domain model](https://user-images.githubusercontent.com/68492467/115889848-2bb6e700-a409-11eb-9378-85ee91f0a4ce.PNG)
 # destinare
 
 ## TEAM MEMBERS
