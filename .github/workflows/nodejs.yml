@@ -19,3 +19,6 @@ jobs:
           CI: true
           DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
           YELP_KEY: ${{ secrets.YELP_KEY }}
+          WEATHER_KEY: ${{secrets.WEATHER_KEY}}
+          EVENTS_KEY: ${{secrets.EVENTS_KEY}}
+          PARKS_KEY: ${{secrets.PARKS_KEY}}
