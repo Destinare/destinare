@@ -100,6 +100,13 @@ const testData = [
   ],
   [
     {
+      venueName: 'Bad Bunny - El Ultimo Tour Del Mundo',
+      website:
+        'https://www.ticketmaster.com/bad-bunny-el-ultimo-tour-del-portland-oregon-02-28-2022/event/0F005A85D02916A4',
+      date: '2022-02-28',
+      time: '20:00:00',
+    },
+    {
       venueName: 'Harry Styles: Love On Tour',
       website:
         'https://www.ticketmaster.com/harry-styles-love-on-tour-portland-oregon-08-18-2021/event/0F00576BD34241D1',
@@ -107,10 +114,10 @@ const testData = [
       time: '20:00:00',
     },
     {
-      venueName: 'Bad Bunny - El Ultimo Tour Del Mundo',
+      venueName: 'Rage Against the Machine',
       website:
-        'https://www.ticketmaster.com/bad-bunny-el-ultimo-tour-del-portland-oregon-02-28-2022/event/0F005A85D02916A4',
-      date: '2022-02-28',
+        'https://www.ticketmaster.com/rage-against-the-machine-portland-oregon-05-02-2022/event/0F005846B0E849F2',
+      date: '2022-05-02',
       time: '20:00:00',
     },
     {
@@ -125,41 +132,6 @@ const testData = [
       website:
         'https://www.ticketmaster.com/the-weeknd-portland-oregon-03-03-2022/event/0F005852A25D6354',
       date: '2022-03-03',
-      time: '19:00:00',
-    },
-    {
-      venueName: 'Rage Against the Machine',
-      website:
-        'https://www.ticketmaster.com/rage-against-the-machine-portland-oregon-05-02-2022/event/0F005846B0E849F2',
-      date: '2022-05-02',
-      time: '20:00:00',
-    },
-    {
-      venueName: 'Jeff Dunham: Seriously',
-      website:
-        'https://www.ticketmaster.com/jeff-dunham-seriously-portland-oregon-11-03-2021/event/0F00572BD1987A24',
-      date: '2021-11-03',
-      time: '19:00:00',
-    },
-    {
-      venueName: 'The Dude Perfect 2021 Tour',
-      website:
-        'https://www.ticketmaster.com/the-dude-perfect-2021-tour-portland-oregon-11-07-2021/event/0F005775E0854BF2',
-      date: '2021-11-07',
-      time: '19:00:00',
-    },
-    {
-      venueName: 'Dan + Shay The (Arena) Tour',
-      website:
-        'https://www.ticketmaster.com/dan-shay-the-arena-tour-portland-oregon-10-28-2021/event/0F0057429DD019ED',
-      date: '2021-10-28',
-      time: '19:00:00',
-    },
-    {
-      venueName: 'Kane Brown - Blessed & Free Tour',
-      website:
-        'https://www.ticketmaster.com/kane-brown-blessed-free-tour-portland-oregon-01-27-2022/event/0F005A71C03D0E1C',
-      date: '2022-01-27',
       time: '19:00:00',
     },
     {
@@ -178,11 +150,39 @@ const testData = [
       time: '19:30:00',
     },
     {
+      venueName: 'Jeff Dunham: Seriously',
+      website:
+        'https://www.ticketmaster.com/jeff-dunham-seriously-portland-oregon-11-03-2021/event/0F00572BD1987A24',
+      date: '2021-11-03',
+      time: '19:00:00',
+    },
+    {
+      venueName: 'Dan + Shay The (Arena) Tour',
+      website:
+        'https://www.ticketmaster.com/dan-shay-the-arena-tour-portland-oregon-10-28-2021/event/0F0057429DD019ED',
+      date: '2021-10-28',
+      time: '19:00:00',
+    },
+    {
       venueName: 'Tame Impala',
       website:
         'https://www.ticketmaster.com/tame-impala-portland-oregon-08-02-2021/event/0F00577ADAEE8FE7',
       date: '2021-08-02',
       time: '20:00:00',
+    },
+    {
+      venueName: 'Kane Brown - Blessed & Free Tour',
+      website:
+        'https://www.ticketmaster.com/kane-brown-blessed-free-tour-portland-oregon-01-27-2022/event/0F005A71C03D0E1C',
+      date: '2022-01-27',
+      time: '19:00:00',
+    },
+    {
+      venueName: 'The Dude Perfect 2021 Tour',
+      website:
+        'https://www.ticketmaster.com/the-dude-perfect-2021-tour-portland-oregon-11-07-2021/event/0F005775E0854BF2',
+      date: '2021-11-07',
+      time: '19:00:00',
     },
     {
       venueName: 'Jo Koy - Just Kidding World Tour',
@@ -206,13 +206,6 @@ const testData = [
       time: '20:00:00',
     },
     {
-      venueName: 'Andrea Bocelli',
-      website:
-        'https://www.ticketmaster.com/andrea-bocelli-portland-oregon-11-04-2021/event/0F005A858B8E0E28',
-      date: '2021-11-04',
-      time: '19:30:00',
-    },
-    {
       venueName: 'Megadeth and Lamb of God',
       website:
         'https://www.ticketmaster.com/megadeth-and-lamb-of-god-portland-oregon-09-04-2021/event/0F005845D9BC4656',
@@ -220,25 +213,32 @@ const testData = [
       time: '18:00:00',
     },
     {
-      venueName: 'Jim Gaffigan: The Pale Tourist',
-      website:
-        'https://www.ticketmaster.com/jim-gaffigan-the-pale-tourist-portland-oregon-12-09-2021/event/0F00583DBBA245C7',
-      date: '2021-12-09',
-      time: '19:30:00',
-    },
-    {
-      venueName: 'Impractical Jokers "The Scoopski Potatoes Tour"',
-      website:
-        'https://www.ticketmaster.com/impractical-jokers-the-scoopski-potatoes-tour-portland-oregon-02-11-2022/event/0F005788E35B2249',
-      date: '2022-02-11',
-      time: '19:30:00',
-    },
-    {
       venueName: 'Deftones Summer Tour 2021',
       website:
         'https://www.ticketmaster.com/deftones-summer-tour-2021-portland-oregon-09-22-2021/event/0F005845873D25AF',
       date: '2021-09-22',
       time: '19:00:00',
+    },
+    {
+      venueName: 'ALICIA The World Tour',
+      website:
+        'https://www.ticketmaster.com/alicia-the-world-tour-portland-oregon-09-01-2021/event/0F005830A00E2E85',
+      date: '2021-09-01',
+      time: '20:00:00',
+    },
+    {
+      venueName: 'Daryl Hall & John Oates',
+      website:
+        'https://www.ticketmaster.com/daryl-hall-john-oates-portland-oregon-10-07-2021/event/0F005785E0864B45',
+      date: '2021-10-07',
+      time: '19:00:00',
+    },
+    {
+      venueName: 'Jim Gaffigan: The Pale Tourist',
+      website:
+        'https://www.ticketmaster.com/jim-gaffigan-the-pale-tourist-portland-oregon-12-09-2021/event/0F00583DBBA245C7',
+      date: '2021-12-09',
+      time: '19:30:00',
     },
   ],
   [
